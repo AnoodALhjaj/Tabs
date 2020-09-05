@@ -1,0 +1,19 @@
+.switch {
+    position:relative;
+    background-color:#e15915;
+    height:200px !important;
+    width:100% !important;
+}
+
+.swith:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -40px;
+    width: 0;
+    height: 0;
+    border-top: solid 80px #e15915;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+}

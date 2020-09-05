@@ -1,0 +1,42 @@
+.Flex_switch{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 150px;
+    color: #222222;
+    
+}
+.logo_switch{
+    width: 40%;
+    height: 87%;
+    object-fit: contain;
+}
+.input_img{
+    width: 50px;
+    height: 87%;
+    object-fit: contain;
+}
+.abs_form_icon{
+    display: flex;
+
+    align-items: flex-end;
+    margin: 0;
+}
+.small_input{
+    display: flex;
+    justify-content: space-between;
+}
+.border_none{
+    border: none!important;
+    outline: none!important;
+    transition:none!important;
+    box-shadow: none!important;
+
+}
+
+.input_style_main{
+    border: 1px solid #222222;
+    border-radius: 14px;
+    overflow: hidden;
+}
